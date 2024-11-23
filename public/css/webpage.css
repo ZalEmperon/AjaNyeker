@@ -1,0 +1,143 @@
+*{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5, .headings{
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo{
+  height: 4.5rem;
+  width: auto;
+}
+
+.card-img-top{
+  height: 25vh;
+  object-fit: cover;
+}
+
+.gambaran1{
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(0, 0, 0, 1)), url('../images/shoes_mens.jpeg');
+  background-position: top right !important;
+}
+.gambaran2{
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url('../images/shoes_womens.webp')
+}
+.gambaran3{
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url('../images/shoes_kids.jpg')
+}
+
+.gambaran1, .gambaran2, .gambaran3{
+  height: 20vh;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center top;
+  transition: transform 0.3s ease;
+}
+
+.gambaran1:hover, .gambaran2:hover, .gambaran3:hover{
+  transform: scale(1.05);
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio label {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.custom-radio input[type="radio"]:checked + label {
+  border: 3px solid transparent; /* Transparent border for offset */
+  padding: 5px; /* Space around the square */
+  box-shadow: 0 0 0 2px #000; /* Outline effect */
+  cursor: pointer;
+}
+
+.texto{
+  position: relative;
+  height: 0px;
+  color: white;
+  font-weight: bold;
+  bottom: 2rem;
+  left: 0.75rem;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.product{
+  height: 20vh;
+  object-fit: cover;
+  background-position: center center;
+}
+
+.jml_krj input::-webkit-outer-spin-button,
+.jml_krj input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.jml_krj input[type=number] {
+  -moz-appearance: textfield;
+  flex: none;
+}
+
+.price-label{
+  font-size: 1rem;
+}
+
+.btn-buy{
+  width: 85%;
+}
+.btn-cart{
+  width: 15%;
+}
+
+.cart-detail .col-6 p{
+  font-size: 13.5px;
+}
+
+.cart-check{
+  width: 20px;
+  height: 20px;
+  top: -1px;
+  left:3px;
+  z-index:9;
+}
+
+@media only screen and (min-width: 748px) {
+  .img-h {
+    height: 80vh;
+    object-fit: cover !important;
+  }
+  .gambaran1, .gambaran2, .gambaran3{
+    height:30vh;
+  }
+  .texto{
+    bottom: 3rem;
+    left: 2rem;
+    font-size: 24px;
+  }
+  .product{
+    height: 30vh;
+  }
+  .btn-buy{
+    width: 50%;
+  }
+  .btn-cart{
+    width: 15%;
+  }
+  .price-label{
+    font-size: 1.25rem;
+  }
+  .cart-check{
+    width: 30px;
+    height: 30px;
+  }
+}

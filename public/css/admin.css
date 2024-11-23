@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.quick-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-card {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 48%;
+    text-align: center;
+}
+
+.action-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.action-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.action-card a:hover {
+    background-color: #555;
+}
